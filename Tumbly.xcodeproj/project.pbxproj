@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0F3FD581FEDD7E800BB46B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F3FD571FEDD7E800BB46B9 /* AppDelegate.swift */; };
+		F0F3FD5A1FEDD7E800BB46B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F3FD591FEDD7E800BB46B9 /* ViewController.swift */; };
+		F0F3FD5D1FEDD7E800BB46B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F3FD5B1FEDD7E800BB46B9 /* Main.storyboard */; };
+		F0F3FD5F1FEDD7E800BB46B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0F3FD5E1FEDD7E800BB46B9 /* Assets.xcassets */; };
+		F0F3FD621FEDD7E800BB46B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0F3FD601FEDD7E800BB46B9 /* LaunchScreen.storyboard */; };
+		F0F3FD6D1FEDD7E900BB46B9 /* TumblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F3FD6C1FEDD7E900BB46B9 /* TumblyTests.swift */; };
+		F0F3FD781FEDD7E900BB46B9 /* TumblyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0F3FD771FEDD7E900BB46B9 /* TumblyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0F3FD691FEDD7E900BB46B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F3FD4C1FEDD7E800BB46B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F3FD531FEDD7E800BB46B9;
+			remoteInfo = Tumbly;
+		};
+		F0F3FD741FEDD7E900BB46B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0F3FD4C1FEDD7E800BB46B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0F3FD531FEDD7E800BB46B9;
+			remoteInfo = Tumbly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0F3FD541FEDD7E800BB46B9 /* Tumbly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tumbly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F3FD571FEDD7E800BB46B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F0F3FD591FEDD7E800BB46B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0F3FD5C1FEDD7E800BB46B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F0F3FD5E1FEDD7E800BB46B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F0F3FD611FEDD7E800BB46B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F0F3FD631FEDD7E800BB46B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F3FD681FEDD7E900BB46B9 /* TumblyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F3FD6C1FEDD7E900BB46B9 /* TumblyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblyTests.swift; sourceTree = "<group>"; };
+		F0F3FD6E1FEDD7E900BB46B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0F3FD731FEDD7E900BB46B9 /* TumblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TumblyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0F3FD771FEDD7E900BB46B9 /* TumblyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TumblyUITests.swift; sourceTree = "<group>"; };
+		F0F3FD791FEDD7E900BB46B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0F3FD511FEDD7E800BB46B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F3FD651FEDD7E900BB46B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F3FD701FEDD7E900BB46B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0F3FD4B1FEDD7E800BB46B9 = {
+			isa = PBXGroup;
+			children = (
+				F0F3FD561FEDD7E800BB46B9 /* Tumbly */,
+				F0F3FD6B1FEDD7E900BB46B9 /* TumblyTests */,
+				F0F3FD761FEDD7E900BB46B9 /* TumblyUITests */,
+				F0F3FD551FEDD7E800BB46B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0F3FD551FEDD7E800BB46B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0F3FD541FEDD7E800BB46B9 /* Tumbly.app */,
+				F0F3FD681FEDD7E900BB46B9 /* TumblyTests.xctest */,
+				F0F3FD731FEDD7E900BB46B9 /* TumblyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0F3FD561FEDD7E800BB46B9 /* Tumbly */ = {
+			isa = PBXGroup;
+			children = (
+				F0F3FD571FEDD7E800BB46B9 /* AppDelegate.swift */,
+				F0F3FD591FEDD7E800BB46B9 /* ViewController.swift */,
+				F0F3FD5B1FEDD7E800BB46B9 /* Main.storyboard */,
+				F0F3FD5E1FEDD7E800BB46B9 /* Assets.xcassets */,
+				F0F3FD601FEDD7E800BB46B9 /* LaunchScreen.storyboard */,
+				F0F3FD631FEDD7E800BB46B9 /* Info.plist */,
+			);
+			path = Tumbly;
+			sourceTree = "<group>";
+		};
+		F0F3FD6B1FEDD7E900BB46B9 /* TumblyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F3FD6C1FEDD7E900BB46B9 /* TumblyTests.swift */,
+				F0F3FD6E1FEDD7E900BB46B9 /* Info.plist */,
+			);
+			path = TumblyTests;
+			sourceTree = "<group>";
+		};
+		F0F3FD761FEDD7E900BB46B9 /* TumblyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0F3FD771FEDD7E900BB46B9 /* TumblyUITests.swift */,
+				F0F3FD791FEDD7E900BB46B9 /* Info.plist */,
+			);
+			path = TumblyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0F3FD531FEDD7E800BB46B9 /* Tumbly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F3FD7C1FEDD7E900BB46B9 /* Build configuration list for PBXNativeTarget "Tumbly" */;
+			buildPhases = (
+				F0F3FD501FEDD7E800BB46B9 /* Sources */,
+				F0F3FD511FEDD7E800BB46B9 /* Frameworks */,
+				F0F3FD521FEDD7E800BB46B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tumbly;
+			productName = Tumbly;
+			productReference = F0F3FD541FEDD7E800BB46B9 /* Tumbly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0F3FD671FEDD7E900BB46B9 /* TumblyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F3FD7F1FEDD7E900BB46B9 /* Build configuration list for PBXNativeTarget "TumblyTests" */;
+			buildPhases = (
+				F0F3FD641FEDD7E900BB46B9 /* Sources */,
+				F0F3FD651FEDD7E900BB46B9 /* Frameworks */,
+				F0F3FD661FEDD7E900BB46B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F3FD6A1FEDD7E900BB46B9 /* PBXTargetDependency */,
+			);
+			name = TumblyTests;
+			productName = TumblyTests;
+			productReference = F0F3FD681FEDD7E900BB46B9 /* TumblyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F0F3FD721FEDD7E900BB46B9 /* TumblyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0F3FD821FEDD7E900BB46B9 /* Build configuration list for PBXNativeTarget "TumblyUITests" */;
+			buildPhases = (
+				F0F3FD6F1FEDD7E900BB46B9 /* Sources */,
+				F0F3FD701FEDD7E900BB46B9 /* Frameworks */,
+				F0F3FD711FEDD7E900BB46B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0F3FD751FEDD7E900BB46B9 /* PBXTargetDependency */,
+			);
+			name = TumblyUITests;
+			productName = TumblyUITests;
+			productReference = F0F3FD731FEDD7E900BB46B9 /* TumblyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0F3FD4C1FEDD7E800BB46B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Oscar Reyes";
+				TargetAttributes = {
+					F0F3FD531FEDD7E800BB46B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F0F3FD671FEDD7E900BB46B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0F3FD531FEDD7E800BB46B9;
+					};
+					F0F3FD721FEDD7E900BB46B9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F0F3FD531FEDD7E800BB46B9;
+					};
+				};
+			};
+			buildConfigurationList = F0F3FD4F1FEDD7E800BB46B9 /* Build configuration list for PBXProject "Tumbly" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F0F3FD4B1FEDD7E800BB46B9;
+			productRefGroup = F0F3FD551FEDD7E800BB46B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0F3FD531FEDD7E800BB46B9 /* Tumbly */,
+				F0F3FD671FEDD7E900BB46B9 /* TumblyTests */,
+				F0F3FD721FEDD7E900BB46B9 /* TumblyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0F3FD521FEDD7E800BB46B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F3FD621FEDD7E800BB46B9 /* LaunchScreen.storyboard in Resources */,
+				F0F3FD5F1FEDD7E800BB46B9 /* Assets.xcassets in Resources */,
+				F0F3FD5D1FEDD7E800BB46B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F3FD661FEDD7E900BB46B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F3FD711FEDD7E900BB46B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0F3FD501FEDD7E800BB46B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F3FD5A1FEDD7E800BB46B9 /* ViewController.swift in Sources */,
+				F0F3FD581FEDD7E800BB46B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F3FD641FEDD7E900BB46B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F3FD6D1FEDD7E900BB46B9 /* TumblyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0F3FD6F1FEDD7E900BB46B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0F3FD781FEDD7E900BB46B9 /* TumblyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0F3FD6A1FEDD7E900BB46B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F3FD531FEDD7E800BB46B9 /* Tumbly */;
+			targetProxy = F0F3FD691FEDD7E900BB46B9 /* PBXContainerItemProxy */;
+		};
+		F0F3FD751FEDD7E900BB46B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0F3FD531FEDD7E800BB46B9 /* Tumbly */;
+			targetProxy = F0F3FD741FEDD7E900BB46B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0F3FD5B1FEDD7E800BB46B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F3FD5C1FEDD7E800BB46B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F0F3FD601FEDD7E800BB46B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0F3FD611FEDD7E800BB46B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0F3FD7A1FEDD7E900BB46B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F0F3FD7B1FEDD7E900BB46B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0F3FD7D1FEDD7E900BB46B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tumbly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tumbly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0F3FD7E1FEDD7E900BB46B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Tumbly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.Tumbly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F0F3FD801FEDD7E900BB46B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TumblyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbly.app/Tumbly";
+			};
+			name = Debug;
+		};
+		F0F3FD811FEDD7E900BB46B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TumblyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tumbly.app/Tumbly";
+			};
+			name = Release;
+		};
+		F0F3FD831FEDD7E900BB46B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TumblyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tumbly;
+			};
+			name = Debug;
+		};
+		F0F3FD841FEDD7E900BB46B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TumblyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepath.TumblyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tumbly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0F3FD4F1FEDD7E800BB46B9 /* Build configuration list for PBXProject "Tumbly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F3FD7A1FEDD7E900BB46B9 /* Debug */,
+				F0F3FD7B1FEDD7E900BB46B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F3FD7C1FEDD7E900BB46B9 /* Build configuration list for PBXNativeTarget "Tumbly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F3FD7D1FEDD7E900BB46B9 /* Debug */,
+				F0F3FD7E1FEDD7E900BB46B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F3FD7F1FEDD7E900BB46B9 /* Build configuration list for PBXNativeTarget "TumblyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F3FD801FEDD7E900BB46B9 /* Debug */,
+				F0F3FD811FEDD7E900BB46B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0F3FD821FEDD7E900BB46B9 /* Build configuration list for PBXNativeTarget "TumblyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0F3FD831FEDD7E900BB46B9 /* Debug */,
+				F0F3FD841FEDD7E900BB46B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0F3FD4C1FEDD7E800BB46B9 /* Project object */;
+}
