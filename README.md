@@ -1,14 +1,14 @@
-# Lab 1 - *Name of App Here*
+# Lab 1 - *Tumbly*
 
-**Name of your app** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
+**Tumbly** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **1.5** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can scroll through a feed of images returned from the Tumblr API (5pts)
+- [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
 The following **optional** user stories are implemented:
 
@@ -30,7 +30,7 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/oscarreyes98/Tumbly/blob/master/Tumbly/tumblyGIF.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
@@ -40,7 +40,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Oscar Reyes]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
